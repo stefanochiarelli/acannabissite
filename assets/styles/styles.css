@@ -1,0 +1,47 @@
+
+
+.cannabisNav {
+    background-color: #229954;
+}
+
+a.cannabisDoc:hover {
+    background-color: #4edd8a;
+    color: black !important;
+}
+
+a.cannabisHome:hover {
+    background-color: #4edd8a;
+    color: black !important;
+}
+
+a.cannabisPreg:hover {
+    background-color: #4edd8a;
+    color: black !important;
+}
+
+/*
+.navbar-item :hover {
+    background-color: #4edd8a !important;
+    color: white !important;
+}
+
+.navbar-link :hover {
+    background-color: #4edd8a !important;
+    color: black !important;
+}
+*/
+
+
+
+.cannabisImgslide {
+    border-bottom: black solid;
+}
+
+.cannabisSec2 {
+   background-color:  #4edd8a;
+   
+}
+
+.cannabis__Navbar {
+    background-color: #229954;
+}
