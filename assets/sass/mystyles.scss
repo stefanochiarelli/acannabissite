@@ -1,10 +1,23 @@
 @charset "utf-8";
+
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 $family-sans-serif: "Lato", sans-serif;
 
+
+
 $purple: #8A4D76;
 $primary: $purple;
+
+
 
 @import "./node_modules/bulma/sass/utilities/_all.sass";
 @import "./node_modules/bulma/sass/base/_all.sass";

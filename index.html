@@ -5,7 +5,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/styles/bulma-carousel.min.css">
         <link rel="stylesheet" href="./assets/styles/mystyles.css">
         <link rel="stylesheet" href="./assets/styles/styles.css">
         <title>A Cannabis Site</title>
@@ -25,25 +24,25 @@
         </div>
         <div class="navbar-menu cannabis__Navbar" id="nav-links">
             <div class="navbar-start ">
-                <a href="index.html" class="navbar-item cannabisHome column is-4-desktop is-5-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white">
+                <a href="index.html" class="navbar-item cannabisHome column is-4-desktop is-4-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white" id="tabHome">
                 Home
                 </a>
         
-                <a href="./assets/files/sobrenosotros.html" class="navbar-item cannabisDoc column is-4-desktop is-4-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white">
+                <a href="./assets/files/sobrenosotros.html" class="navbar-item cannabisDoc column is-4-desktop is-4-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white" id="tabSnos">
                 Sobre Nosotros
                 </a>
 
-                <a href="./assets/files/productos.html" class="navbar-item cannabisPreg column is-4-desktop is-5-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white">
+                <a href="./assets/files/productos.html" class="navbar-item cannabisPreg column is-4-desktop is-4-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white" id="tabProd">
                 Productos
                 </a>
         
                 
-                <a href="./assets/files/teAyudamos.html" class="navbar-item cannabisPreg column is-4-desktop is-5-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white">
+                <a href="./assets/files/teAyudamos.html" class="navbar-item cannabisPreg column is-4-desktop is-4-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white" id="tabAyuda">
                     Te Ayudamos
                 </a>
             
 
-                <a href="./assets/files/contact.html" class="navbar-item cannabisPreg column is-4-desktop is-5-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white">
+                <a href="./assets/files/contact.html" class="navbar-item cannabisPreg column is-4-desktop is-3-fullhd is-flex is-justify-content-center is-size-6-desktop is-size-4-fullhd has-text-white" id="tabCtact">
                     Contactanos
                 </a>
                 
@@ -55,44 +54,35 @@
             <section class="cannabisSec"> 
                 <h1 class=" title container is-flex is-justify-content-center is-align-content-center mt-5 has-text-weight-bold"> ¡Bienvenidos A Cannbis Site!</h1>
                         <!-- Start Carousel -->
-                    <div class="container is-fluid cannabisImgslide">  
-                        <div id="carousel-demo" class="carousel is-bordered my-6 pt-1">
-                        
-                                <div class="item-1">
-                                    <img src="assets/images/slider1.jpg" alt="imagen1">
+                    
+                    <div class="container mb-4">
+                                <div class="glide">
+                                    <div class="glide__track" data-glide-el="track">
+                                        
+                                            <ul class="glide__slides">
+                                                <li class="glide__slide"><img src="/assets/images/slider2g.png" alt="image2"></li>
+                                                <li class="glide__slide"><img src="/assets/images/slider3g.png" alt="image3"></li>
+                                                <li class="glide__slide"><img src="/assets/images/slider4g.png" alt="image3"></li>
+                                                <li class="glide__slide"><img src="/assets/images/slider5g.png" alt="image3"></li>
+                                            </ul>
+                                            
+                                    </div>
+                                    <div class="glide__arrows" data-glide-el="controls">
+                                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<" style="background-color: #229954;"><</button>
+                                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">" style="background-color: #229954;">></button>
+                                    </div>
                                 </div>
-                                <div class="item-2">
-                                    <img src="assets/images/slider2.jpg" alt="">
-                                </div>
-                                <div class="item-3">
-                                    <img src="assets/images/slider3.png" alt="">
-                                </div>
-                                <div class="item-4">
-                                    <img src="assets/images/slider4.png" alt="">
-                                </div>
-                                <div class="item-5">
-                                    <img src="assets/images/slider5.png" alt="">
-                                </div>
-                                <div class="item-6">
-                                    <img src="assets/images/slider6.png" alt="">
-                                </div>
-                                <div class="item-7">
-                                    <img src="assets/images/slider7.png" alt="">
-                                </div>
-                                <div class="item-8">
-                                    <img src="assets/images/slider 8.png" alt="">
-                                </div>
-                        </div>
+                     </div>       
                         <!-- End Carousel -->
-                    </div>      
-                        <div class="container py-4 pb-4 is-flex is-flex-direction-column is-align-content-center cannabisSec2">
+                      
+                        <div class="container  pb-4 is-flex is-flex-direction-column is-align-content-center cannabisSec2">
                             <h2 class="subtitle is-size-3 mx-3 is-align-self-center notification is-dark" style="margin-top: 35px;">¿Cual es nuestra misión?</h2>
                             <div>
                                 <div class="has-text-centered is-size-3">
                                     <h2 class="is py-4 has-text-weight-bold">Queremos brindarte el mejor cannabis medicinal y a la vez proporcionarte con:</h2>
                                 </div>
                                 <div class="content">
-                                    <ul>
+                                    <ul style="margin-left: 80px;">
                                         <div class="ml-4 pb-4 is-size-5"> 
                                             <li>
                                                 Las mejores tecnicas para poder crear un cultivo organico y saludable!
@@ -107,18 +97,21 @@
                                 </div>            
                             </div>
                         </div>
-                    <footer class="footer">
-                        <div class="has-text-centered ">A Cannabis Site 2021</div>
+                    <footer class="footer p-6">
+                        <div class="has-text-centered" >A Cannabis Site 2021</div>
                     </footer>    
             </section>
-            <script src="./assets/js/bulma-carousel.js"></script>
-            <script src="./assets/js/bulma-carousel.min.js"></script>
+
+            <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
             <script>
-                bulmaCarousel.attach('#carousel-demo', {
-                    slidesToScroll: 1,
-                    slidesToShow: 4
-                });
-                </script>
+            new Glide('.glide').mount()
+            </script><script src="/node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+            <script>
+            new Glide('.glide').mount()
+            </script>
+
             <script src="./assets/js/index.js"></script>
         </body>   
 </html>

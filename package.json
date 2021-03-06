@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "assets/sass/mystyles.scss",
-  "dependencies": {},
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  },
   "devDependencies": {
     "bulma": "^0.9.2",
     "install": "^0.13.0",
     "node-sass": "^5.0.0"
   },
   "scripts": {
-  "css-build": "node-sass --omit-source-map-url assets/sass/mystyles.scss assets/styles/mystyles.css",
-  "css-watch": "npm run css-build -- --watch",
-  "start": "npm run css-watch"
-},
+    "css-build": "node-sass --omit-source-map-url assets/sass/mystyles.scss assets/styles/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
   "author": "",
   "license": "ISC"
 }
